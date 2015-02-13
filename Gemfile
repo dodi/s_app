@@ -3,6 +3,11 @@ source 'https://rubygems.org'
 gem 'shopify_app'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+ruby '1.9.3'
+group :production do
+	gem "rails_12factor"
+	gem "pg"
+end
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -49,7 +54,3 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
-	gem "rails_12factor"
-	gem "pg"
-end
