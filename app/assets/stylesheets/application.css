@@ -8,3 +8,6 @@
  *= require shopify_app_buttons
  *= require shopify_app
 */
+.logo {
+	background-image:url('<%= asset_path("logo.png") %> ');
+}
