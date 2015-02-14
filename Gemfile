@@ -52,7 +52,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
   gem 'less-rails-bootstrap'
-  gem 'therubyracer', platforms: :ruby
+  #gem 'therubyracer', platforms: :ruby
   #gem 'sqlite3'
 end
 
